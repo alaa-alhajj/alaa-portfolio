@@ -13,6 +13,7 @@ const moreProjects = [
     description: 'A modern, interactive To-Do List web application built with React and Vite.',
     innerDescription: 'A modern, interactive To-Do List web application built with React and Vite. This app allows users to efficiently manage their tasks with intuitive features and a responsive design. Whether for personal use or team collaboration, the application provides a seamless experience for adding, editing, deleting, and categorizing tasks.',
     image: './images/no-image-icon.png',
+    hmoeImage: `${process.env.PUBLIC_URL}/images/no-image-icon.png`,
     details: 'Built using ReactJs with Vite.',
   },
   {
@@ -21,6 +22,7 @@ const moreProjects = [
     description: 'A comprehensive medical web application designed to provide users with personalized health and wellness information.',
     innerDescription: "A comprehensive medical web application designed to provide users with personalized health and wellness information. The app allows users to track their symptoms, manage medical appointments, and store essential health data in one place. With an intuitive interface and secure data handling, this app aims to help users stay on top of their health and medical needs.",
     image: './images/no-image-icon.png',
+    hmoeImage: `${process.env.PUBLIC_URL}/images/no-image-icon.png`,
     details: 'Built using Next.js with TailwindCSS.',
   },
   {
@@ -29,6 +31,7 @@ const moreProjects = [
     description: 'A sleek, real-time weather forecast web application built with React and integrated with a weather API.',
     innerDescription: "A sleek, real-time weather forecast web application built with React and integrated with a weather API. The app provides users with up-to-date weather information, including temperature, humidity, wind speed, and more, for any city around the world. It offers a user-friendly interface with an intuitive search bar, allowing users to easily get current and forecasted weather data.",
     image: './images/no-image-icon.png',
+    hmoeImage: `${process.env.PUBLIC_URL}/images/no-image-icon.png`,
     details: 'Built using Next.js with TailwindCSS.',
   },
   {
@@ -37,7 +40,7 @@ const moreProjects = [
     description: 'A platform offering personalized services and digital solutions.',
     innerDescription: 'Developed a modern and responsive website for Barka, a platform offering personalized services and digital solutions. Built using WordPress, I focused on creating a seamless, user-friendly experience with a custom theme, optimized for performance and speed. The site includes smooth animations, intuitive navigation, and a strong emphasis on visual storytelling, providing a captivating digital experience.',
     image: `${process.env.PUBLIC_URL}/images/baraka.PNG`,
-    hmoeImage: `${process.env.PUBLIC_URL}/images/baraka-home.PNG`,
+    hmoeImage: `${process.env.PUBLIC_URL}/images/baraka-home.png`,
     details: 'Developed using Wordpress / Custom theme',
     link: "https://barka.me/"
   },
@@ -115,7 +118,9 @@ const MoreProjects = () => {
           >Projects I Contributed To</motion.h3>
           <div className="project-cards project-cards-contributed">
             <div className="card card-contributed">
-              <img src="./images/smartwellbeing.png" alt="Wellbeing Quiz" />
+              <div className='card-img'>
+                <img src="./images/smartwellbeing.png" alt="Wellbeing Quiz" />
+              </div>
               <div className="card-body">
                 <h4>Wellbeing Quiz – Medicus</h4>
                 <p>
@@ -143,7 +148,9 @@ const MoreProjects = () => {
 
 
             <div className="card card-contributed">
-              <img src="./images/smart-reports.png" alt="Smart Reports" />
+              <div className='card-img'>
+                <img src="./images/smart-reports.png" alt="Smart Reports" />
+              </div>
               <div className="card-body">
                 <h4>Smart Reports – Medicus</h4>
                 <p>
