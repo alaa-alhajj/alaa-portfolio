@@ -4,10 +4,6 @@
 Welcome to my personal portfolio website built with **React.js** ✨  
 This project showcases my skills, personal projects, and contributions to real-world applications in a sleek one-page layout.
 
-## 🌐 Live Demo
-
-[🔗 View Live Site](https://your-deployed-link.com)
-
 ---
 
 ## 📁 Project Structure
