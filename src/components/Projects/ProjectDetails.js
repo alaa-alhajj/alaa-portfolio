@@ -18,7 +18,7 @@ const ProjectDetails = () => {
 
   return (
     <>
-    <InternalHeader />
+    <InternalHeader />  
       <InnerHero showBackBtn={true} />
 
       <div className="projects-container">

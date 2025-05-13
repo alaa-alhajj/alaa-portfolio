@@ -272,7 +272,7 @@
 @media (max-width: 768px) {
   .project-details-container,
   .card-contributed {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 2rem;
   }
   .card-contributed .card-img {
