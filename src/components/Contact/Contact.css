@@ -1,0 +1,66 @@
+.contact-section {
+  padding: 4rem 2rem;
+  background-color: #0f0f0f;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f3f3f3;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #aaa;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.download-cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00d4ff;
+  color: #0f0f0f;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-cv-button:hover {
+  background-color: #00b6e6;
+  color: #fff;
+}
+
+.pdf-icon {
+  font-size: 1.2rem;
+}
