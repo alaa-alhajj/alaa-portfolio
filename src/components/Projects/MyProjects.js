@@ -31,7 +31,7 @@ export const projects = [
         hmoeImage: `${process.env.PUBLIC_URL}/images/e-commerce-app-home.png`,
         features: ['🛍️ Product Browsing: View product listings with images, prices, and details.', '🛒 Shopping Cart: Add, remove, and update product quantities seamlessly across the app.', '🔍 Search & Filter: Search products by name and filter by category, price, or rating.', '💳 Checkout: Secure payment process with order summary and confirmation.'],
         technologies: ['Next.js', 'Tailwind CSS', 'React Context API', 'Jest', 'React Testing Library'],
-        link: "https://ecommerce-app-ybhj.vercel.app/",
+        link: "https://ecommerce-app-three-liart.vercel.app/",
         github: 'https://github.com/alaa-alhajj/ecommerce-app'
     },
     {
